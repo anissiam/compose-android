@@ -59,6 +59,12 @@ dependencies {
     implementation(libs.androidx.material.icons.core)
     implementation("androidx.compose.material:material-icons-extended:1.7.8") // Check for the latest version
 
+    val nav_version = "2.9.0"
+
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    implementation("io.coil-kt.coil3:coil-compose:3.2.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.2.0")
 
 
 
